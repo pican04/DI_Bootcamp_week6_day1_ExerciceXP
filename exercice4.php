@@ -16,6 +16,14 @@
         function ReverseContent($str){
             return strrev ($str);
         }
+    
+            /**
+        Correcteur: Yannick GOUGUIA
+        
+        
+       la variable $NiceDay n'a pas ete declarée
+            
+        */
         echo ReverseContent($NiceDay)
         ?>
 </body>
